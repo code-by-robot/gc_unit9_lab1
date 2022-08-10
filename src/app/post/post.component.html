@@ -1,0 +1,9 @@
+<div *ngFor="let p of post.data.children">
+  <div class="clickable">
+    <a href="https://www.reddit.com{{ p.data.permalink }}">
+      <h3>{{ p.data.title }}</h3>
+      <br />
+      <img src="{{ p.data.thumbnail }}" height="300px" />
+    </a>
+  </div>
+</div>
