@@ -1,6 +1,7 @@
 .clickable{
     width: 60%;
-    border: 3px solid black;
+    border: 3px solid rgb(78, 55, 8);
     margin:auto;
     align-items: center;
+    background-color: aliceblue;
 }
